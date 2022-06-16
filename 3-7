@@ -1,0 +1,42 @@
+let carreira = prompt (
+    "Olá, em qual carreira você gostaria de seguir?; Front-End ou Back-end?"
+);
+
+if (carreiraBack == "Front-End") {
+    var linguagemBack = prompt (
+        "No Front-End, o que você desejaria aprender; React ou Vue?"
+    );
+} else if (carreira == "Back-End") {
+    var linguagemBack = prompt(
+        "No Back-End, o que você desejaria aprender; C-sharp ou Java?"
+    );
+}
+
+var carreira2 = prompt(
+    "Você gostaria de se tornar um especialista na sua linguagem ou se tornar um Full-Stack? Digite Especialista ou Full-Stack para continuar"
+);
+
+if (carreira2 == "Especialista") {
+    alert(
+        "Uau que bacana, o mercado precisa mesmo de profissionais especialistas na aréa de "+ carreira +", continue seus estudos!"
+    );
+} else if (carreira2 == "Full-Stack") {
+    alert(
+        "Olha só! Quanta ambição você quer se tornar um desenvolvedor Full-Stack, uma pessoa que entende tanto de Back-End quanto de Front-End, o mercado tem exelentes vagas com grandes salários, mas nunca pare seus estudos!"
+    );
+}
+
+var tecnologia = prompt(
+    "Tem mais alguma tecnologia que você gostaria de aprender? Digite SIM ou NÃO"
+);
+
+while (tecnologia == "SIM") {
+    var escolha = prompt(
+    "Digite a tecnologia que você gostaria de aprender?"
+);
+if (escolha == "NÃO"){
+    alert("Que legal você quer aprender todas essas tecnologias");
+    break;
+}
+alert("Que legal que você escolheu" +escolha+ "!")
+} 
